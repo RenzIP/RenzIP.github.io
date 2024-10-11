@@ -40,6 +40,6 @@ Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut, jangan ragu un
 
    - Email: baagas7474@gmail.com
    - LinkedIn: https://id.linkedin.com/in/bagas-agung-wiyono-91782730a
-   - GitHub: github.com/RenzIP
+   - GitHub: www.github.com/RenzIP
 
 Terima kasih telah mengunjungi portofolio saya!
