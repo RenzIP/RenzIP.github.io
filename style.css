@@ -25,3 +25,15 @@ margin: 0 15px;
 font-size: 16px;
 transition: 0.3s;
 }
+
+header nav a:hover, header nav a:active {
+    color: #e74c3c;
+}
+
+section.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 0 100px;
+}

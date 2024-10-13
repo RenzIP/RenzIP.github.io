@@ -4,16 +4,7 @@ Selamat datang di repositori portofolio saya! Di sini, Anda dapat menemukan berb
 
 ## Deskripsi
 
-Portofolio ini menampilkan karya-karya saya di bidang [sebutkan bidang atau teknologi, misalnya: web development, desain grafis, pengembangan aplikasi, dll.]. Anda akan menemukan berbagai proyek yang menunjukkan kemampuan saya dalam [sebutkan keterampilan spesifik, misalnya: HTML, CSS, JavaScript, React, dll.].
-
-## Daftar Proyek
-
-Berikut adalah beberapa proyek yang terdapat dalam portofolio ini:
-
-1. **Nama Proyek 1**
-   - Deskripsi singkat tentang proyek.
-   - [Link ke proyek](url-ke-proyek)
-   - Teknologi yang digunakan: HTML, CSS, JavaScript.
+Portofolio ini menampilkan karya-karya saya di bidang Website Developer. Anda akan menemukan berbagai proyek yang menunjukkan kemampuan saya dalam HTML dan CSS
 
 
 ## Cara Menjalankan Proyek
@@ -31,8 +22,8 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
 4. Buka file index.html di browser Anda untuk melihat portofolio.
 
 ## Keterampilan
-   - Bahasa Pemrograman: HTML, CSS, JavaScript
-   - Alat dan Teknologi: Git, GitHub, VS code, Replit
+   - Bahasa Pemrograman: HTML, CSS
+   - Alat dan Teknologi: Git, GitHub, VS code,
 
 ## Kontak
 
