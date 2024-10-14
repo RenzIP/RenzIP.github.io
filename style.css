@@ -74,3 +74,22 @@ section.home {
     margin-right: 15px;
     transition: 0.3s;
 }
+
+.social-icons a:hover {
+    color: #e74c3c;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #e74c3c;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
