@@ -37,3 +37,28 @@ section.home {
     height: 100vh;
     padding: 0 100px;
 }
+
+.home-img img{
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.home-content h1 {
+    font-size: 48px;
+}
+
+.home-content h1 span {
+    color: #e74c3c;
+}
+
+.home-content h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.home-content h3 .highlight {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
