@@ -102,5 +102,11 @@ section.home {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background-color:  #f4f4f4;
+    background-color:  #000000;
+}
+
+.Skills-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
