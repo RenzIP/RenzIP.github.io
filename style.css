@@ -120,3 +120,11 @@ section.home {
     flex: 1;
     max-width: 600px;
 }
+
+.Skills-content h1 {
+    font-size: 36;
+}
+
+.Skills-content .highlight {
+    color: #e74c3c;
+}
