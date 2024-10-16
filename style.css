@@ -96,3 +96,11 @@ section.home {
 .btn:hover {
     background-color: #c0392b;
 }
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color:  #f4f4f4;
+}
