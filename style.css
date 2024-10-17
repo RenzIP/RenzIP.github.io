@@ -128,3 +128,10 @@ section.home {
 .Skills-content .highlight {
     color: #e74c3c;
 }
+
+.Skills-content p {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    line-height: 1.6;
+}
