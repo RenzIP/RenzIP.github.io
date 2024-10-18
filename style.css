@@ -108,7 +108,7 @@ section.home {
 .Skills-img {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .Skills-img img {
