@@ -101,7 +101,7 @@ section.home {
 
 .home-img img{
     width: 400px;
-    border-radius: 50%;
+    border-radius: 45%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
