@@ -68,6 +68,7 @@ header nav a:hover, header nav a:active {
 @media(max-width:995px){
     nav {
         position: absolute;
+        display: none;
         top: 0;
         right: 0;
         width: 40%;
@@ -152,6 +153,32 @@ section.home {
 
 .btn:hover {
     background-color: #c0392b;
+}
+
+@media(max-width: 1000px){
+    .home {
+        gap: 4rem;
+    }
+}
+
+@media(max-width: 995px){
+    .home {
+        flex-direction: column;
+        margin: 5rem 4rem;
+    }
+
+    .home .home-content h3{
+        font-size: 2.5rem;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-img img{
+        width: 70hv;
+        margin-top: 4rem;
+    }
 }
 
 .skills {
