@@ -6,8 +6,11 @@
 }
 
 body {
-    height: 100hv;
-    background-color: black;
+    min-height: 100vh;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 li {
