@@ -9,6 +9,12 @@
     --primary-color: #081525;
     --text-color: #fefefe;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     min-height: 100vh;
     background-image: url(img/background.jpg);
@@ -231,6 +237,7 @@ span {
     box-shadow: 0 0 25px solid #d4e02d;
     cursor: pointer;
     transition: 0.2s linear;
+    margin-bottom: 20rem;
 }
 
 .home-img img:hover {
@@ -287,6 +294,7 @@ span {
     .home-img img {
         width: 70vw;
         margin-top: 4rem;
+        margin-bottom: 0;
     }
 }
 
