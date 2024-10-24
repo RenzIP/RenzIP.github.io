@@ -254,7 +254,7 @@ span {
     border-radius: 50%;
     margin: 3rem 1rem 3rem 0;
     transition: 0.3s ease;
-    color: #fefefe;
+    color: #d4e02d;
 }
 
 .official-website a:hover {
@@ -264,25 +264,28 @@ span {
     box-shadow: 0 0 25px #d4e02d;
 }
 
-@media(max-width: 768px){
+@media (max-width: 1000px) {
+    .Home-Page {
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 995px){
     .Home-Page {
         flex-direction: column;
-        gap: 2rem; 
+        margin: 5rem 4rem;
     }
 
-    .home-img img {
-        width: 60vw; 
+    .Home-Page .home-content h3 {
+        font-size: 2.5rem;
     }
 
     .home-content h1 {
-        font-size: 3rem; 
+        font-size: 5rem;
     }
 
-    .home-content h3 {
-        font-size: 2rem;
-    }
-
-    .home-content p {
-        font-size: 1rem;
+    .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
     }
 }
