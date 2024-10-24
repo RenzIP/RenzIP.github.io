@@ -88,7 +88,7 @@ nav li a:hover::before {
 
 .btn i {
     font-size: 1.5rem;
-    transition: scale .2s ease;
+    transition: scale 0.2s ease;
 }
 
 .btn a {
@@ -123,6 +123,7 @@ nav li a:hover::before {
         gap: 2rem;
         z-index: 1;
         overflow: hidden;
+        transition: height 0.5s ease-in-out;
     }
 
     .logo {
@@ -154,7 +155,7 @@ nav li a:hover::before {
         height: 2px;
         background-color: var(--primary-color);
         transform-origin: left;
-        transition: 0.5 ease;
+        transition: 0.5s ease;
     }
 
     .menu-btn input {
