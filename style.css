@@ -89,6 +89,7 @@ nav li a:hover::before {
 .btn i {
     font-size: 1.5rem;
     transition: scale 0.2s ease;
+    z-index: 1 ;
 }
 
 .btn a {
@@ -239,6 +240,27 @@ span {
 
 .home-content p {
     color: white;
+}
+
+.official-website a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid  #d4e02d;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1rem 3rem 0;
+    transition: 0.3s ease;
+}
+
+.official-website a:hover {
+    color: black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #d4e02d;
+    box-shadow: 0 0 25px #d4e02d;
 }
 
 @media(max-width: 768px){
