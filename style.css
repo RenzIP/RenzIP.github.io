@@ -105,7 +105,7 @@ nav li a:hover::before {
 
 /* Media Quaries */
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
     nav {
         position: absolute;
         top: 80px;
