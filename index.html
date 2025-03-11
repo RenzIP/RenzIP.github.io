@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
+    <!-- Loading Screen -->
+
+    <div class="loading-screen">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
     <!-- Navbar Section -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -80,12 +87,6 @@
         </div>
     </section>
 
-    <!-- Loading Screen -->
-    <div class="loading-screen">
-        <div class="spinner"></div>
-        <p>Loading...</p>
-    </div>
-
     <!-- Footer Section -->
 
     <footer class="footer">
@@ -128,6 +129,7 @@
         window.addEventListener("load", function() {
             document.querySelector(".loading-screen").classList.add("hidden");
         });
-    </script>    
+    </script>
+   
 </body>
 </html>

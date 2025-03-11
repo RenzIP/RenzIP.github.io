@@ -80,9 +80,10 @@ h2 {
     100% { transform: rotate(360deg); }
 }
 
-/* Hilangkan loading screen setelah website selesai dimuat */
+/* Hilangkan loading screen setelah halaman selesai dimuat */
 .loading-screen.hidden {
     opacity: 0;
     visibility: hidden;
 }
+
 
