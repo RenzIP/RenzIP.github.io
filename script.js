@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Inisialisasi Typed.js
     var typed = new Typed(".typed-text", {
-        strings: ["Web Developer", "DevOps Engineer", "Content Creator"],
+        strings: ["Web Developer", "Gamer", "DevOps Engineer"],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
