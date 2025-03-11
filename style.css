@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background: url('assets/img/pexels-veeterzy-303383.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social-icons a {
+    font-size: 24px;
+    margin: 10px;
+    color: #007bff;
+}
