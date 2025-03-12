@@ -4,18 +4,11 @@ document.addEventListener("DOMContentLoaded", function() {
         duration: 1000,
         once: true,
     });
-    gsap.registerPlugin(ScrollTrigger);
+    // gsap.registerPlugin(ScrollTrigger);
 
     gsap.from(".hero h1", { opacity: 0, y: -50, duration: 1 });
     gsap.from(".hero p", { opacity: 0, y: 50, duration: 1, delay: 0.5 });
     gsap.from(".section-title", { opacity: 0, y: -50, duration: 1, delay: 0.3 });
-    gsap.from(".project-card", {opacity: 0, y: -50, duration: 1, delay: 0.3, 
-        scrollTrigger: {
-            trigger: ".project-card",
-            start: "top 80%",
-            toggleActions: "play none none none"
-        }
-    });
 
     // Inisialisasi Typed.js
     var typed = new Typed(".typed-text", {
