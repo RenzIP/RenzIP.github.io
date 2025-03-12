@@ -19,15 +19,25 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll("nav ul li a");
 
-    navLinks.forEach((link) => {
-        link.addEventListener("click", function () {
-            // Hapus class "active" dari semua link
-            navLinks.forEach((link) => link.classList.remove("active"));
+    function changeActiveNav() {
+        let scrollPosition = window.scrollY + 100;
 
-            // Tambahkan class "active" ke link yang diklik
-            this.classList.add("active");
+        sections.forEach((section) => {
+            if (scrollPosition >= section.offsetTop && scrollPosition < section.offsetTop + section.offsetHeight) {
+                let sectionId = section.getAttribute("id");
+
+                // Hapus semua active
+                navLinks.forEach((link) => link.classList.remove("active"));
+
+                // Tambahkan active ke yang sesuai
+                document.querySelector(`nav ul li a[href="#${sectionId}"]`).classList.add("active");
+            }
         });
-    });
+    }
+
+    // Tambahkan event listener
+    window.addEventListener("scroll", changeActiveNav);
 });
