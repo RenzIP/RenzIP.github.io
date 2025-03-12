@@ -42,3 +42,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Tambahkan event listener
     window.addEventListener("scroll", changeActiveNav);
 });
+
+document.querySelectorAll(".skill-card").forEach((card) => {
+    card.addEventListener("mouseenter", () => {
+        gsap.to(card, { scale: 1.1, rotation: 5, duration: 0.1, ease: "power2.out" });
+    });
+
+    card.addEventListener("mouseleave", () => {
+        gsap.to(card, { scale: 1, rotation: 0, duration: 0.1, ease: "power2.out" });
+    });
+});
