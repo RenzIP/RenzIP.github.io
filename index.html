@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <meta name="description" content="Personal Website of Bagas Agung Wiyono - Web Developer, Gamer, and DevOps Engineer.">
+    <meta name="keywords" content="Web Developer, DevOps, Portfolio, Bagas Agung Wiyono">
+    <meta name="author" content="Bagas Agung Wiyono">
+    <title>Bagas Agung Wiyono - Personal Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon"> <!-- Tambahkan favicon -->
 </head>
 <body>
     <!-- Loading Screen -->
-
     <div class="loading-screen">
         <div class="spinner"></div>
         <p>Loading...</p>
     </div>
 
     <!-- Navbar Section -->
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="https://t.if.co.id/714240042">Bagas Agung Wiyono</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -37,71 +39,69 @@
     </nav>
 
     <!-- Hero Section -->
-
     <header class="hero" id="home">
         <div class="container text-center">
-            <h1 class="display-4"> Hi, Im <span class="typed-text"></span></h1>
-            <p>Web Developer | Gamer | DevOps</p>
+            <h1 class="display-4">Hi, I'm <span class="typed-text"></span></h1>
+            <p class="lead">Web Developer | Gamer | DevOps</p>
             <a href="#contact" class="btn btn-primary mt-3">Hire Me</a>
         </div>
     </header>
 
     <!-- About Section -->
-
     <section id="about" class="container py-5" data-aos="fade-up">
-        <img src="assets/img/image-removebg-preview.png" alt="Profile Picture">
-        <div class="about-content">
-            <h2>About me</h2>
-            <p>Saya Bagas Agung Wiyono, seorang Web Developer dan DevOps yang berfokus pada pengembangan website modern dengan teknologi terkini.</p>
+        <div class="text-center">
+            <img src="assets/img/image-removebg-preview.png" alt="Bagas Agung Wiyono - Profile Picture" class="profile-img">
+            <h2 class="mt-4">About Me</h2>
+            <p class="about-text">Saya Bagas Agung Wiyono, seorang Web Developer dan DevOps yang berfokus pada pengembangan website modern dengan teknologi terkini.</p>
         </div>
     </section>
 
     <!-- Skills Section -->
-
-    <section id="skills" class="skills-section">
-        <h2 class="section-title">My Skills</h2>
-        <div class="skills-container">
-            <div class="skill-card" data-aos="fade-up">
-                <i class="fab fa-html5"></i>
-                <h3>HTML</h3>
-                <p>Experienced in semantic HTML, accessibility, and SEO-friendly structure.</p>
-            </div>
-            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
-                <i class="fab fa-css3-alt"></i>
-                <h3>CSS</h3>
-                <p>Proficient in Flexbox, Grid, animations, and responsive design.</p>
-            </div>
-            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
-                <i class="fab fa-js"></i>
-                <h3>JavaScript</h3>
-                <p>Familiar with ES6+, DOM manipulation, and asynchronous programming.</p>
-            </div>
-            <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
-                <i class="fa-brands fa-golang"></i>
-                <h3>Golang</h3>
-                <p>Building efficient and scalable backend applications using Go.</p>
-            </div>
-            <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
-                <i class="fa-brands fa-ubuntu"></i>
-                <h3>Ubuntu</h3>
-                <p>Experienced in Linux system administration and server management.</p>
-            </div>
-            <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
-                <i class="fa-solid fa-server"></i>
-                <h3>Nginx</h3>
-                <p>Setting up and configuring Nginx for reverse proxy and load balancing.</p>
+    <section id="skills" class="skills-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card" data-aos="fade-up">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Experienced in semantic HTML, accessibility, and SEO-friendly structure.</p>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Proficient in Flexbox, Grid, animations, and responsive design.</p>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Familiar with ES6+, DOM manipulation, and asynchronous programming.</p>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fa-brands fa-golang"></i>
+                    <h3>Golang</h3>
+                    <p>Building efficient and scalable backend applications using Go.</p>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fa-brands fa-ubuntu"></i>
+                    <h3>Ubuntu</h3>
+                    <p>Experienced in Linux system administration and server management.</p>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Nginx</h3>
+                    <p>Setting up and configuring Nginx for reverse proxy and load balancing.</p>
+                </div>
             </div>
         </div>
     </section>
-    
-    <!-- Projects Section -->
 
-    <section id="projects" class="projects-section" data-aos="fade-up">
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
         <div class="container">
-            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+            <h2 class="section-title text-center">My Projects</h2>
             <div class="projects-container">
                 <div class="project-card" data-aos="zoom-in">
-                    <img src="images/project1.png" alt="Project 1">
+                    <img src="images/project1.png" alt="Project 1 - Modern Portfolio Website" loading="lazy">
                     <div class="project-info">
                         <h3>Project 1</h3>
                         <p>Website portfolio modern dengan desain responsif.</p>
@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="images/project2.png" alt="Project 2">
+                    <img src="images/project2.png" alt="Project 2 - Admin Dashboard" loading="lazy">
                     <div class="project-info">
                         <h3>Project 2</h3>
                         <p>Dashboard admin menggunakan React dan Golang.</p>
@@ -117,31 +117,7 @@
                     </div>
                 </div>
                 <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="images/project3.png" alt="Project 3">
-                    <div class="project-info">
-                        <h3>Project 3</h3>
-                        <p>Aplikasi monitoring server berbasis Nginx dan Ubuntu.</p>
-                        <a href="#" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="images/project3.png" alt="Project 3">
-                    <div class="project-info">
-                        <h3>Project 3</h3>
-                        <p>Aplikasi monitoring server berbasis Nginx dan Ubuntu.</p>
-                        <a href="#" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="images/project3.png" alt="Project 3">
-                    <div class="project-info">
-                        <h3>Project 3</h3>
-                        <p>Aplikasi monitoring server berbasis Nginx dan Ubuntu.</p>
-                        <a href="#" class="project-link">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="images/project3.png" alt="Project 3">
+                    <img src="images/project3.png" alt="Project 3 - Server Monitoring App" loading="lazy">
                     <div class="project-info">
                         <h3>Project 3</h3>
                         <p>Aplikasi monitoring server berbasis Nginx dan Ubuntu.</p>
@@ -151,14 +127,12 @@
             </div>
         </div>
     </section>
-    
 
     <!-- Contact Section -->
-
-    <section id="contact" class="container py-5" data-aos="fade-up">
-        <h2>Contact Me</h2>
-        <p>Hubungi saya melalui media sosial di bawah ini</p>
-        <div class="social-icons">
+    <section id="contact" class="container py-5">
+        <h2 class="text-center">Contact Me</h2>
+        <p class="text-center">Hubungi saya melalui media sosial di bawah ini</p>
+        <div class="social-icons text-center">
             <a href="https://www.linkedin.com/in/bagas-agung-w/" target="_blank" class="fa-brands fa-linkedin"></a>
             <a href="https://github.com/RenzIP" target="_blank" class="fa-brands fa-github"></a>
             <a href="https://instagram.com/bagas_ip" target="_blank" class="fa-brands fa-instagram"></a>
@@ -166,10 +140,9 @@
     </section>
 
     <!-- Footer Section -->
-
-    <footer class="footer">
-        <div class="footer-container">
-            <p></p>
+    <footer class="footer py-3">
+        <div class="container text-center">
+            <p>&copy; <span id="current-year"></span> Bagas Agung Wiyono. All Rights Reserved.</p>
             <div class="social-links">
                 <a href="https://instagram.com/bagas_ip" target="_blank">
                     <img src="assets/icon/icons8-instagram.svg" alt="Instagram">
@@ -183,32 +156,21 @@
             </div>
         </div>
     </footer>
-    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/gh/domyid/tracker@latest/index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="script.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CRY01VZFXL"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-CRY01VZFXL');
     </script>
-    <script>
-        document.querySelector('.footer p').innerHTML = `&copy; ${new Date().getFullYear()} Bagas Agung Wiyono. All Rights Reserved.`;
-    </script>
-    <script>
-        window.addEventListener("load", function() {
-            document.querySelector(".loading-screen").classList.add("hidden");
-        });
-    </script>
-   
 </body>
 </html>
