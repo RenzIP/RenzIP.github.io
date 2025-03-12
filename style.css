@@ -2,6 +2,32 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#about {
+    background-image: url('assets/img/about-bg.jpg');
+}
+#skills {
+    background-image: url('assets/img/skills-bg.jpg');
+}
+#projects {
+    background-image: url('assets/img/projects-bg.jpg');
+}
+#contact {
+    background-image: url('assets/img/contact-bg.jpg');
+}
+
 .hero {
     background: url('assets/img/pexels-veeterzy-303383.jpg') no-repeat center center/cover;
     height: 100vh;
@@ -75,6 +101,10 @@ h2 {
 }
 #about-content {
     max-width: 600px;
+}
+
+.navbar-nav {
+    text-align: center;
 }
 
 /* Skill Css */
@@ -264,3 +294,7 @@ nav ul li a.active {
     transform: scale(1.2);
 }
 
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}

@@ -19,6 +19,19 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+gsap.utils.toArray("section").forEach(section => {
+    gsap.to(section, {
+        backgroundPositionY: "50%",
+        ease: "none",
+        scrollTrigger: {
+            trigger: section,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: true
+        }
+    });
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll("nav ul li a");
