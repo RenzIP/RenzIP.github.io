@@ -1,6 +1,6 @@
 // Typed.js Initialization
 const typed = new Typed('.typed-text', {
-    strings: ['Web Developer', 'Gamer', 'DevOps Engineer'],
+    strings: ['Web Developer', 'Gamer', 'DevOps Enginer'],
     typeSpeed: 50,
     backSpeed: 30,
     loop: true

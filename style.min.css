@@ -54,22 +54,6 @@ html {
     100% { transform: rotate(360deg); }
 }
 
-/* Navbar */
-.navbar {
-    background-color: #343a40 !important;
-    transition: background-color 0.5s ease;
-}
-
-.navbar-brand {
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.nav-link {
-    font-size: 1.1rem;
-    margin-left: 20px;
-}
-
 /* Style untuk navbar aktif */
 .navbar-nav .nav-item .nav-link.active {
     color: #6a11cb; /* Warna teks saat aktif */
