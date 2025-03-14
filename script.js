@@ -99,6 +99,3 @@ function setActiveNav() {
 // Jalankan fungsi saat scroll dan saat halaman dimuat
 window.addEventListener("scroll", setActiveNav);
 window.addEventListener("load", setActiveNav);
-
-// Dynamic Year in Footer
-document.querySelector('.footer p').innerHTML = `&copy; ${new Date().getFullYear()} Bagas Agung Wiyono. All Rights Reserved.`;
