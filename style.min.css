@@ -55,11 +55,6 @@ html {
 }
 
 /* Style untuk navbar aktif */
-.navbar-nav .nav-item .nav-link.active {
-    color: #6a11cb; /* Warna teks saat aktif */
-    font-weight: bold; /* Tebalkan teks */
-    border-bottom: 2px solid #6a11cb; /* Garis bawah saat aktif */
-}
 
 /* Hero Section */
 .hero {
@@ -256,28 +251,3 @@ html {
 }
 
 /* Footer */
-.footer {
-    background-color: #343a40;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer p {
-    margin: 0;
-    font-size: 1rem;
-}
-
-.social-links {
-    margin-top: 10px;
-}
-
-.social-links a {
-    margin: 0 10px;
-}
-
-.social-links img {
-    width: 24px;
-    height: 24px;
-    filter: invert(1);
-}

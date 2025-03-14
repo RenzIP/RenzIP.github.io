@@ -34,21 +34,6 @@ gsap.from("#about", {
 gsap.registerPlugin(ScrollTrigger);
 
 // Animasi untuk setiap section
-const sections = document.querySelectorAll("section");
-
-sections.forEach((section) => {
-    gsap.from(section, {
-        opacity: 0,
-        y: 50, // Animasi dari bawah ke atas
-        duration: 1,
-        scrollTrigger: {
-            trigger: section, // Trigger animasi saat section masuk ke viewport
-            start: "top 80%", // Mulai animasi saat 80% dari section masuk ke viewport
-            end: "bottom 20%", // Akhiri animasi saat 20% dari section keluar viewport
-            toggleActions: "play none none reverse", // Play animasi saat scroll down, reverse saat scroll up
-        },
-    });
-});
 
 // Animasi untuk navbar saat scroll up/down
 const navbar = document.querySelector(".navbar");
