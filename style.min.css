@@ -12,6 +12,9 @@ html {
     scroll-behavior: smooth;
 }
 
+.bsb-navbar {
+    background-color: #212529 !important; /* Bootstrap Dark Color */
+  }
 
 .container {
     width: 90%;
