@@ -146,7 +146,7 @@ background-color: rgb(109,67, 0);
 
 section{
 width: 100%;
-height: 90vh;
+height: 100vh;
 }
 
 .main-container{
@@ -274,4 +274,98 @@ border: 2px solid rgb(109,67, 0);
 background-color: transparent;
 font-weight: 700;
 box-shadow: 0 0 40px rgb(109,67, 0);
+}
+
+section {
+    width: 100%;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: rgb(109,67,0);
+    margin-bottom: 20px;
+}
+
+#skills {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.skills-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(12, 0, 0);
+    font-size: 1.1rem;
+}
+
+.skill span {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #444;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: #ff6600;
+    color: white;
+    font-size: 0.8rem;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+}
+
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background: rgb(109,67,0);
+    color: white;
+    font-size: 0.9rem;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
 }
