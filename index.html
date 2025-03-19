@@ -20,7 +20,7 @@
     <nav>
         <div class="nav-container">
             <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
-                <a href="https://kousaka.online" class="logo">Bagas Agung Wiyono</a>
+                <a href="https://t.if.co.id/714240042" target="_blank" class="logo">Bagas Agung Wiyono</a>
             </div>
             <div class="links">
                 <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a
@@ -34,7 +34,7 @@
                 <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a
                         href="#">Blogs</a></div>
                 <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a
-                        href="#">Contact Us</a></div>
+                        href="https://wa.me/6285179935117" target="_blank">Contact Us</a></div>
             </div>
             <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
         </div>
@@ -65,6 +65,22 @@
         }
         gtag('js', new Date());
         gtag('config', 'G-CRY01VZFXL');
+    </script>
+    <script>
+        AOS.init({
+            offset: 0
+        });
+    </script>
+    <script>
+        function hamburg() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+
+        function cancel() {
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
     </script>
 </body>
 
