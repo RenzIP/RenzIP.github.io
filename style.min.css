@@ -56,15 +56,6 @@ transition: color 0.3s;
 color: #505050; /* Warna berubah saat hover */
 }
 
-.hamburg, .cancel{
-cursor: pointer;
-position: absolute;
-right: 15px;
-top: 10px;
-color: black;
-font-size: 2rem;
-display: none;
-}
 
 .nav-container .links {
 display: flex;
@@ -142,6 +133,17 @@ transition: 0.2s linear;
 
 .dropdown .links a:hover{
 background-color: rgb(109,67, 0);
+}
+
+.hamburg, 
+.cancel{
+cursor: pointer;
+position: absolute;
+right: 15px;
+top: 10px;
+color: black;
+font-size: 2rem;
+display: none;
 }
 
 section{
